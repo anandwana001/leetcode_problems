@@ -1,41 +1,40 @@
-https://leetcode.com/problems/valid-parentheses/description/
+//https://leetcode.com/problems/valid-parentheses/description/
 
-Problem
+//Problem
 
+//Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
+//An input string is valid if:
 
-Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+//Open brackets must be closed by the same type of brackets.
+//Open brackets must be closed in the correct order.
+//Note that an empty string is also considered valid.
 
-An input string is valid if:
+//Example 1:
 
-Open brackets must be closed by the same type of brackets.
-Open brackets must be closed in the correct order.
-Note that an empty string is also considered valid.
+//Input: "()"
+//Output: true
+//Example 2:
 
-Example 1:
+//Input: "()[]{}"
+//Output: true
+//Example 3:
 
-Input: "()"
-Output: true
-Example 2:
+//Input: "(]"
+//Output: false
+//Example 4:
 
-Input: "()[]{}"
-Output: true
-Example 3:
+//Input: "([)]"
+//Output: false
+//Example 5:
 
-Input: "(]"
-Output: false
-Example 4:
-
-Input: "([)]"
-Output: false
-Example 5:
-
-Input: "{[]}"
-Output: true
+//Input: "{[]}"
+//Output: true
 
 
 
-Solution
+
+//Solution
 
 
 
