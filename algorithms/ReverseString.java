@@ -21,7 +21,7 @@
 
 class Solution {
     public String reverseString(String s) {
-        StringBuilder rr = new StringBuilder(r);
-		return rr.reverse();        
+        StringBuilder reversedString = new StringBuilder(s);
+		return reversedString.reverse();        
     }
 }
