@@ -1,27 +1,21 @@
-/***********************************************************************************************************************************************
+// Problem Link: https://leetcode.com/problems/edit-distance/
 
-Edit Distance
+// Problem: Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2.
 
-Problem Link: https://leetcode.com/problems/edit-distance/
+// 	You have the following 3 operations permitted on a word:
 
-Problem Statement: Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2.
+// 		1. Insert a character
+// 		2. Delete a character
+// 		3. Replace a character
 
-	You have the following 3 operations permitted on a word:
+// Example:
 
-		1. Insert a character
-		2. Delete a character
-		3. Replace a character
-
-Example:
-
-	Input: word1 = "horse", word2 = "ros"
-	Output: 3
-	Explanation: 
-		horse -> rorse (replace 'h' with 'r')
-		rorse -> rose (remove 'r')
-		rose -> ros (remove 'e')
-
-***********************************************************************************************************************************************/
+// 	Input: word1 = "horse", word2 = "ros"
+// 	Output: 3
+// 	Explanation: 
+// 		horse -> rorse (replace 'h' with 'r')
+// 		rorse -> rose (remove 'r')
+// 		rose -> ros (remove 'e')
 
 class Solution {
 	
